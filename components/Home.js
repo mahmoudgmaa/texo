@@ -47,7 +47,7 @@ const Home = ({ navigation }) => {
       headerTitleAlign: "left",
       headerLeft: () => (
         <View style={{ marginLeft: 15,marginRight:10 }}>
-          <TouchableOpacity activeOpacity={0.5}>
+          <TouchableOpacity activeOpacity={0.5} onPress={logOut}>
             <Avatar rounded source={{ uri: auth?.currentUser?.photoURL }} />
           </TouchableOpacity>
         </View>

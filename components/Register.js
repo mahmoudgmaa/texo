@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import React, { useState, useContext } from "react";
 import { KeyboardAvoidingView } from "react-native";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View,Image } from "react-native";
 import { Input, Button } from "react-native-elements";
 import { db, auth } from "../firebase";
 import AsyncStorage from "@react-native-async-storage/async-storage";
@@ -93,5 +93,6 @@ const styles = StyleSheet.create({
   appImg: {
     width: 150,
     height: 150,
+    marginBottom:10
   },
 });

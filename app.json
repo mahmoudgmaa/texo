@@ -28,6 +28,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "chat app"
+    "description": "chat app",
+    "githubUrl": "https://github.com/mahmoudgmaa/texo"
   }
 }
